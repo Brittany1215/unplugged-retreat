@@ -89,6 +89,11 @@ textarea {
 
   /* Base Header - Footer Styles */
 
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
    header, footer {
     display: flex;
     justify-content: center;
@@ -96,11 +101,23 @@ textarea {
     flex-flow: row wrap;
    }
 
+   header {
+    padding: 15px 0;
+
+   }
+
    header .content-wrapper {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
+   }
+
+   .header-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
    }
 
    header nav {
@@ -108,11 +125,23 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
    }
 
    header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+   }
+
+   footer {
+    flex-direction: column;
+  }
+
+   footer .content-wrapper  {
+    width: 55%;
+    margin: 50px 0;
+
    }
 
    footer .social-icons {
@@ -137,6 +166,7 @@ textarea {
   flex-flow: row wrap;
 }
 
+
 /* Aside */
 
 aside {
@@ -154,11 +184,20 @@ aside {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 60% ;
+  margin: 30px 0;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features p {
+  margin: 0;
 }
 
 /* Reviews */
@@ -167,6 +206,15 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3  {
+  width: 50%;
+  margin: 20px 0;
 }
 
 
