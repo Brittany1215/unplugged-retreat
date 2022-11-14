@@ -690,6 +690,13 @@
     .contact-content h4 {
       font-size: 1.5em;
     }
+
+  }
+    .map figure {
+      padding-bottom: 45.5%;
+  }
+   
+  
   
     /* ==========================================================================
      FAQ Page
@@ -712,7 +719,7 @@
         font-size: .875em;
         line-height: 1.125;
     }
-  }
+  
   
   @media only screen and (min-width:1200px) {
     /*Desktop styles here*/
@@ -796,6 +803,10 @@
       font-size: 1.875em;
     }
   
+    }
+    .map figure {
+    padding-bottom: 37.5%;
+    }
     /* ==========================================================================
     FAQ Page
     ========================================================================== */
