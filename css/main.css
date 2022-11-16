@@ -215,6 +215,8 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  margin:0;
+  padding: 0;
 }
 
 header nav ul li {
@@ -253,6 +255,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 20px;
 }
 
 footer .social-icons p i {
@@ -270,6 +273,7 @@ footer .copyright {
   
   .hero-area {
     background: url(../img/jake-melara-30679-unsplash.jpg);
+    
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -399,6 +403,10 @@ footer .copyright {
     top: 0; 
     left: 0; 
 }
+
+  .content-wrapper h2 {
+    margin: 0;
+  }
   
   .contact-section {
     background-color: #2a423a;
@@ -407,9 +415,9 @@ footer .copyright {
     align-items: center;
     flex-flow: row wrap;
   }
-  
+
   .contact-content p {
-    margin: 0;
+    margin-right: 185px;
   }
   
   /* ==========================================================================
@@ -425,7 +433,7 @@ footer .copyright {
   }
   
   .faq .content-wrapper {
-    margin: 50px 0 0 0;
+    margin: 40px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -438,7 +446,7 @@ footer .copyright {
   }
   
   .faq-content {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
   
   .faq-content h4 {
